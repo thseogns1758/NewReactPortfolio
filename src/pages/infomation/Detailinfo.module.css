@@ -6,3 +6,12 @@
   border-bottom: 15px;
   padding: 25px;
 }
+
+@media (max-width: 520px) {
+  .DetailInfoBox {
+    width: 80%;
+    margin: auto;
+
+    font-size: 13px;
+  }
+}

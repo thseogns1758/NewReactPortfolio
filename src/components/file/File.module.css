@@ -3,9 +3,9 @@
   z-index: 3;
   left: 0;
   top: 0;
-  width: 5%;
+  width: 150px;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 18px;
   margin-left: 9px;
   margin-top: 13px;
@@ -26,26 +26,13 @@
   height: 70%;
   margin-bottom: 5px;
 }
-@media (max-width: 1920px) {
-  .position {
-    grid-auto-flow: column;
 
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-  }
-  .position a {
-    font-size: 9px;
-  }
-}
-@media (min-width: 1921px) {
-  .position {
-    width: 3%;
-  }
-}
 @media (max-width: 520px) {
   .position {
     width: 100%;
     margin: 0;
     grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   .position li {
     margin-top: 15px;
