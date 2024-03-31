@@ -40,7 +40,6 @@ const Startbar = () => {
               <FcCursor />
             </div>
             <span>
-              {" "}
               Click <br /> (포트폴리오 정보)
             </span>
           </div>
