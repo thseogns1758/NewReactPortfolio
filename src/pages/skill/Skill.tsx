@@ -13,18 +13,8 @@ import Login from "./function/login/Login";
 import DropDown from "./function/dropDown/DropDown";
 
 import SkillStack from "./SkillStack";
-
+import { features } from "../../names";
 const Skill = () => {
-  const skillNames = [
-    "Counter",
-    "Resize",
-    "ResizeDiagonal",
-    "DragAndDrop",
-    "DropDown",
-    "Scroll",
-    "Login",
-    "CountUp",
-  ];
   return (
     <div className={styles.cover}>
       <SkillStack />
@@ -33,31 +23,31 @@ const Skill = () => {
         <div className={styles.skill_flex}>
           {" "}
           <SkillCover>
-            <div>{skillNames[0]}</div>
+            <div>{features[0]}</div>
             <Counter />
           </SkillCover>
           <SkillCover>
-            <div>{skillNames[1]}</div>
+            <div>{features[1]}</div>
             <Resize />
           </SkillCover>
           <SkillCover>
-            <div>{skillNames[2]}</div>
+            <div>{features[2]}</div>
             <ResizeDiagonal />
           </SkillCover>
           <SkillCover>
-            <div>{skillNames[3]}</div>
+            <div>{features[3]}</div>
             <DragAndDrop />
           </SkillCover>
           <SkillCover>
-            <div>{skillNames[4]}</div>
+            <div>{features[4]}</div>
             <DropDown />
           </SkillCover>
           <SkillCover>
-            <div>{skillNames[6]}</div>
+            <div>{features[6]}</div>
             <Login />
           </SkillCover>
           <SkillCover>
-            <div>{skillNames[7]}</div>
+            <div>{features[7]}</div>
             <CountUp />
           </SkillCover>
         </div>

@@ -41,8 +41,10 @@ const NumberCounter = () => {
     const existingDataIndex = countData.findIndex(
       (item) => item.name === countKey
     );
+
     if (existingDataIndex !== -1) {
       const updatedData = [...countData];
+
       updatedData[existingDataIndex].count = count;
       setCountData(updatedData);
     } else {
@@ -54,6 +56,7 @@ const NumberCounter = () => {
       setCountData([...countData, newCountData]);
     }
   };
+
   return (
     <div className={styles.aling}>
       <AddCount addName={addNameHandler} />

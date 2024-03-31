@@ -6,7 +6,7 @@ const CountUp = () => {
   const [countNumber, setCountNumber] = React.useState(1);
   const [intervalId, setIntervalId] = React.useState<NodeJS.Timeout | null>(
     null
-  ); // 타이머 객체의 타입을 명시적으로 지정합니다.
+  );
 
   const mouseEnterHandler = () => {
     const newIntervalId = setInterval(

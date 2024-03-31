@@ -5,7 +5,7 @@ import styles from "./File.module.css";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { pageName } from "../../features/windowSlice";
-import { fileName } from "./fileName";
+import { fileName } from "../../names";
 const File = () => {
   const dispatch = useDispatch();
 
