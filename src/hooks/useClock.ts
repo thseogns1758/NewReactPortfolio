@@ -1,10 +1,6 @@
 import { useState } from "react";
-interface clockType {
-  time: string;
-  todayDate: string;
-  hourOfTime: number;
-}
-export const useClock = (): clockType => {
+
+export const useClock = (): [string, string, number] => {
   const [time, setTime] = useState("");
   const [todayDate, setTodayDate] = useState("");
   const [hourOfTime, setHourOfTime] = useState(0);
@@ -51,5 +47,5 @@ export const useClock = (): clockType => {
     setTime(hours + ":" + stringMinutes);
     setTodayDate(year + "-" + stringMonth + "-" + stringDate);
   }
-  return { time, todayDate, hourOfTime };
+  return [time, todayDate, hourOfTime];
 };

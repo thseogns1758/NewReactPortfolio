@@ -4,7 +4,7 @@ import React from "react";
 import styles from "./TimeComponent.module.css";
 import { useClock } from "../../hooks/useClock";
 const TimeComponent = () => {
-  const { time, todayDate, hourOfTime } = useClock();
+  const [time, todayDate, hourOfTime] = useClock();
 
   return (
     <div className={styles.todayCover}>
