@@ -9,7 +9,6 @@ const Scroll = () => {
   const targetRef = React.useRef<HTMLDivElement | null>(null);
 
   const handleScroll = (e: any) => {
-    console.log("스크롤 중...", e.target.scrollTop);
     if (targetRef.current !== null && e.target.scrollTop > 0) {
       setScrollPosition(false);
     } else {
@@ -22,7 +21,6 @@ const Scroll = () => {
 
   React.useEffect(() => {
     const box = targetRef.current;
-    console.log(box); // targetRef.current가 제대로 설정되었는지 콘솔 출력
 
     // 스크롤 이벤트를 박스에 등록
     if (box) {

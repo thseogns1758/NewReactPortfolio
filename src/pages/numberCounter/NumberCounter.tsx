@@ -15,7 +15,6 @@ const NumberCounter = () => {
     const storedData = localStorage.getItem("countData");
     if (storedData) {
       setCountData(JSON.parse(storedData));
-      console.log("전달");
     }
   }, []);
   React.useEffect(() => {
@@ -42,10 +41,8 @@ const NumberCounter = () => {
     const existingDataIndex = countData.findIndex(
       (item) => item.name === countKey
     );
-    console.log(count);
     if (existingDataIndex !== -1) {
       const updatedData = [...countData];
-      console.log(count);
       updatedData[existingDataIndex].count = count;
       setCountData(updatedData);
     } else {
@@ -57,7 +54,6 @@ const NumberCounter = () => {
       setCountData([...countData, newCountData]);
     }
   };
-  console.log(countData);
   return (
     <div className={styles.aling}>
       <AddCount addName={addNameHandler} />

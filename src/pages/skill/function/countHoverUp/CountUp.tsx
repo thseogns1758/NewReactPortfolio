@@ -9,7 +9,6 @@ const CountUp = () => {
   ); // 타이머 객체의 타입을 명시적으로 지정합니다.
 
   const mouseEnterHandler = () => {
-    console.log("dd");
     const newIntervalId = setInterval(
       () => setCountNumber((prev) => prev + 1),
       1000

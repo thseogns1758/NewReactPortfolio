@@ -18,7 +18,6 @@ const Startbar = () => {
     let randomNumber = Math.random();
     randomNumber = randomNumber * 3;
     randomNumber = Math.floor(randomNumber);
-    console.log(randomNumber, "랜덤넘버");
     dispatch(number(randomNumber));
   };
   return (

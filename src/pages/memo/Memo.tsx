@@ -5,14 +5,14 @@ import React, { useState, useEffect, useCallback } from "react";
 import MeMoList from "./MemoList";
 import AddMemo from "./AddMemo";
 import styles from "./Memo.module.css";
-interface Memo {
+interface MemoType {
   id: string;
   title: string;
   memoText: string;
   releaseDate: string;
 }
 const Memo = () => {
-  const [memos, setMemos] = useState<Memo[]>([]);
+  const [memos, setMemos] = useState<MemoType[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -27,10 +27,9 @@ const Memo = () => {
       if (!response.ok) {
         throw new Error("Something went wrong!");
       }
-      const loadMemos: Memo[] = [];
+      const loadMemos: MemoType[] = [];
 
       const data = await response.json();
-      console.log("데이터의값", data);
       for (const key in data) {
         loadMemos.push({
           id: key,
@@ -65,7 +64,6 @@ const Memo = () => {
       }
     );
     const data = response.json();
-    console.log(data);
   };
 
   let content = <p>Found no Memos.</p>;

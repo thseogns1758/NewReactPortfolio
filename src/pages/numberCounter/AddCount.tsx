@@ -13,7 +13,6 @@ const AddCount: React.FC<AddCountProps> = (props) => {
     if (titleRef.current!.value.trim() === "") {
       return alert("공백은 입력할 수 없습니다.");
     }
-    console.log(titleRef.current!.value);
     const Name = titleRef.current!.value;
     props.addName(Name);
     titleRef.current!.value = "";

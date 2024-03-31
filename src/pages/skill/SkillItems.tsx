@@ -13,7 +13,6 @@ interface SkillItemProps {
 }
 
 const SkillItems: React.FC<SkillItemProps> = ({ skillName, item }) => {
-  console.log(item);
   return (
     <div className={styles[skillName]}>
       {item.map((skill) => (

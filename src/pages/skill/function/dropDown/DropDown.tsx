@@ -13,7 +13,6 @@ const DropDown = () => {
   const dispatch = useDispatch();
   const handleToggle = () => {
     dispatch(toggle(!toggleDisplay));
-    console.log(toggleDisplay);
   };
   const handleItemClick = (item: string) => {
     dispatch(list(item)); // 값을 전달하여 액션을 생성합니다.

@@ -16,15 +16,9 @@ const DragAndDrop = () => {
 
   const dragStart = (e: DragEvent, position: number) => {
     dragItem.current = position;
-    if (e.target instanceof HTMLElement) {
-      console.log(e.target.innerHTML);
-    }
   };
   const dragEnter = (e: DragEvent, position: number) => {
     dragOverItem.current = position;
-    if (e.target instanceof HTMLElement) {
-      console.log(e.target.innerHTML);
-    }
   };
 
   const drop = (e: DragEvent) => {

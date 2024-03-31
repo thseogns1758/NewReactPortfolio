@@ -8,7 +8,6 @@ interface WeatherBoxProps {
   weather: any;
 }
 const WeatherBox = ({ weather }: WeatherBoxProps) => {
-  console.log("weather는? ", weather);
   //weather?.name  / weather && weather.name 동일함 - weather가 있을때만 보여줌
   return (
     <div className={styles.weatherInfo}>

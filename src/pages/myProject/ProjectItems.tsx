@@ -75,8 +75,6 @@ function ProjectItems() {
   let imgAlt = "";
   const handleMouseHover = (e: any) => {
     imgAlt = e.target.alt;
-    // imgAlt = e.currentTarget.alt;
-    // console.log("마우스 오버한값입니다.", e.currentTarget.alt);
     dispatch(hover(imgAlt));
   };
   const handleMouseOut = () => {
