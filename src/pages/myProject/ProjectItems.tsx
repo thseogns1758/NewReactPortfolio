@@ -23,6 +23,11 @@ const SliderItem = styled.div`
 
 const items: itemsProps[] = [
   {
+    item: `${process.env.PUBLIC_URL}/img/project_image/PhotoAlbum.png`,
+    href: "https://photoalbumproject.netlify.app/",
+    name: "PhotoAlbum",
+  },
+  {
     item: `${process.env.PUBLIC_URL}/img/project_image/OpenTable.png`,
     href: "https://opentableclone.netlify.app/",
     name: "OpenTable",
