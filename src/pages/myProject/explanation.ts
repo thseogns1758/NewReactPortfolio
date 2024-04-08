@@ -3,15 +3,15 @@
 const project = [ 
     {
     name: "PhotoAlbum",
-    expl: `firebase의 DB와 Storage를 사용하여 앨범삭제,등록과 이미지 등록기능을 구현한 사이트`,
+    expl: `firebase의 DB와 Storage를 사용하여 앨범삭제,등록과 이미지 등록기능을 구현한 사이트입니다.`,
   },
     {
     name: "OpenTable",
-    expl: `OpenTable사이트를 클론코딩하여 제작한 사이트, pisma를 사용하여 supabase의 데이터베이스에 업로드하고 값을 appRouter방식으로 출력한 페이지. `,
+    expl: `OpenTable사이트를 클론코딩하여 제작한 사이트, pisma를 사용하여 supabase의 데이터베이스에 업로드하고 값을 appRouter방식으로 출력한 페이지입니다. `,
   },
   {
     name: "Netfle",
-    expl: `The Movie Database"라는 영화 정보 사이트에서 api를 GET하여 redux를 활용, 각 페이지에 정보를 출력한 페이지 `,
+    expl: `The Movie Database"라는 영화 정보 사이트에서 api를 GET하여 redux를 활용, 각 페이지에 정보를 출력한 페이지입니다. `,
   },
   {
     name: "H&M",
