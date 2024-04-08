@@ -1,6 +1,11 @@
 /** @format */
 
-const project = [  {
+const project = [ 
+    {
+    name: "PhotoAlbum",
+    expl: `firebase의 DB와 Storage를 사용하여 앨범삭제,등록과 이미지 등록기능을 구현한 사이트`,
+  },
+    {
     name: "OpenTable",
     expl: `OpenTable사이트를 클론코딩하여 제작한 사이트, pisma를 사용하여 supabase의 데이터베이스에 업로드하고 값을 appRouter방식으로 출력한 페이지. `,
   },
