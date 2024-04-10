@@ -20,3 +20,8 @@
 .countDeco button {
   padding: 10px 15px;
 }
+@media (max-width: 520px) {
+  .countDeco button {
+    padding: 0;
+  }
+}

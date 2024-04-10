@@ -88,6 +88,10 @@ const NumberCounter = () => {
           </div>
         ))}
       </div>
+      <p style={{ marginTop: "20px" }}>
+        카운트의 이름은 로컬스토리지에 저장됩니다. <br />
+        추가, 삭제기능이 있으니 마음껏 사용하셔도됩니다.
+      </p>
     </div>
   );
 };

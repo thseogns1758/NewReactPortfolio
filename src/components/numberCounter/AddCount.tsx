@@ -24,7 +24,12 @@ const AddCount: React.FC<AddCountProps> = (props) => {
           카운트이름
         </label>
 
-        <input type="text" id="title" ref={titleRef} />
+        <input
+          placeholder="이름을 입력하세요"
+          type="text"
+          id="title"
+          ref={titleRef}
+        />
         <button className={styles.add}>추가</button>
       </form>
     </div>
