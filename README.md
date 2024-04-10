@@ -1,3 +1,5 @@
+# WindowProject
+
 새로운 컨텐츠를 추가하고 삭제하기 편한 확장성있는 사이트를 제작하고 싶었습니다.   
 삭제와 추가가 용이한 window의 폴더식 구조를 떠올리게 되었고 포트폴리오 사이트로 제작하였습니다.    
 폴더의 path구조를 만들기위해 React-router를 사용하여 표현했습니다.  
@@ -10,7 +12,7 @@
 
 router를 사용해 폴더기능을 구현하였으며 Link로 되어있는 폴더를 클릭시 해당 path로 이동하게 만들었습니다 .  
 해당 path로 이동시 redux로 상태변화를 주어 웹을 형상화한 window컴포넌트가 출력됩니다.  
-  
+## 기능  
 1. 내정보 : 제작자의 정보와 kakaoMap-api를 활용해 현재 거주하고있는 집의 위치를 나타내게 했습니다.  
 ![image](https://github.com/thseogns/NewReactPortfolio/assets/99688960/e82835cb-1910-4762-9a9c-f65aa2238e98)  
   
