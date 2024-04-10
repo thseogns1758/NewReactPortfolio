@@ -1,8 +1,9 @@
 .DetailInfoBox {
   width: 100%;
+
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 40px;
   border-bottom: 15px;
   padding: 25px;
 }
@@ -11,7 +12,7 @@
   .DetailInfoBox {
     width: 80%;
     margin: auto;
-
+    gap: 15px;
     font-size: 13px;
   }
 }

@@ -6,6 +6,9 @@
 }
 .addMemoCover {
   height: 50%;
+  position: relative;
+  z-index: 3;
+  background-color: white;
 }
 .memoCover {
   padding-top: 20px;

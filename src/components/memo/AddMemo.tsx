@@ -15,6 +15,7 @@ const AddMemo: React.FC<AddMemoProps> = (props) => {
   const titleRef = React.useRef<HTMLInputElement>(null);
   const memoTextRef = React.useRef<HTMLTextAreaElement>(null);
   const releaseDateRef = React.useRef<HTMLInputElement>(null);
+
   const rows = 5;
   function submitHandler(event: any) {
     event.preventDefault();
@@ -28,6 +29,9 @@ const AddMemo: React.FC<AddMemoProps> = (props) => {
     };
 
     props.onAddMemo(memo);
+    titleRef.current!.value = " ";
+    memoTextRef.current!.value = " ";
+    releaseDateRef.current!.value = " ";
   }
 
   return (
@@ -37,7 +41,7 @@ const AddMemo: React.FC<AddMemoProps> = (props) => {
           <label htmlFor="title">Title</label>
 
           <input type="text" id="title" ref={titleRef} />
-        </div>{" "}
+        </div>
       </div>
 
       <div className={styles.control}>

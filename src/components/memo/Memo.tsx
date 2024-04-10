@@ -63,6 +63,7 @@ const Memo = () => {
         headers: { "Content-Type": "aplication/json" },
       }
     );
+
     const data = response.json();
   };
 
@@ -86,7 +87,7 @@ const Memo = () => {
         <section>
           <AddMemo onAddMemo={addMemoHandler} />
         </section>
-        <section>
+        <section style={{ backgroundColor: "white" }}>
           <button onClick={fetchMemosHandler}>Fetch Memos</button>
         </section>
       </div>

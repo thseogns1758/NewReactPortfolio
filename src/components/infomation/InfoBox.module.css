@@ -3,7 +3,6 @@
   justify-content: center;
   margin-top: 50px;
 
-  height: 100%;
   padding: 50px;
 }
 .pictureCover {
@@ -29,10 +28,11 @@
   justify-content: start;
   border: 1px solid black;
   border-radius: 15px;
+  justify-content: space-between;
 }
 .infoBox {
   width: 100%;
-  height: 100%;
+
   display: flex;
   flex-direction: column;
 }
