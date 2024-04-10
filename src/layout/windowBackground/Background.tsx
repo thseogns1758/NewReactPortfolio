@@ -5,11 +5,11 @@ import styles from "./Background.module.css";
 // import StartBar from "./windowInterface/startbar/Startbar";
 // import FileCover from "./windowInterface/windowFile/FileCover";
 // import Window from "./windowInterface/window/Window";
-import File from "../../components/file/File";
+import File from "../../layout/file/File";
 import type { RootState } from "../../app/store";
 import { useSelector } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
-import Startbar from "../../components/startbar/Startbar";
+import Startbar from "../../layout/startbar/Startbar";
 import AppRouter from "../../routes/AppRouter";
 const Background = () => {
   const number = useSelector(

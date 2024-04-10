@@ -2,10 +2,10 @@
 
 import React from "react";
 
-import Window from "../interface/window/Window";
+import Window from "../layout/window/Window";
 import { Route, Routes } from "react-router-dom";
 
-import WeatherAppPage from "../pages/weather/WeatherAppPage";
+import WeatherAppPage from "../components/weather/WeatherAppPage";
 const AppRouter = () => {
   return (
     <Routes>

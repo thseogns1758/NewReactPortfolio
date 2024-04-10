@@ -1,12 +1,12 @@
 /** @format */
 
 import React from "react";
-import Information from "../pages/infomation/Information";
-import Skill from "../pages/skill/Skill";
+import Information from "../components/infomation/Information";
+import Skill from "../components/skill/Skill";
 import { Route, Routes } from "react-router-dom";
-import MyProject from "../pages/myProject/MyProject";
-import Memo from "../pages/memo/Memo";
-import NumberCounter from "../pages/numberCounter/NumberCounter";
+import MyProject from "../components/myProject/MyProject";
+import Memo from "../components/memo/Memo";
+import NumberCounter from "../components/numberCounter/NumberCounter";
 const PageRouter = () => {
   return (
     <Routes>

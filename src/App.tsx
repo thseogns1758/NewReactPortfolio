@@ -1,5 +1,5 @@
 import React from "react";
-import Background from "./interface/windowBackground/Background";
+import Background from "./layout/windowBackground/Background";
 import "./App.css";
 const App = () => {
   return (
