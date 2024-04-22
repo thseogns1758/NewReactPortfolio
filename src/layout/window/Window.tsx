@@ -5,11 +5,11 @@ import React from "react";
 import WindowHeader from "./WindowHeader";
 import WindowPage from "./WindowPage";
 import PageRouter from "../../routes/PageRouter";
-import "../../css/styles.css";
+import styles from "./Window.module.css";
 
 const Window = () => {
   return (
-    <div className="window">
+    <div className={styles.window}>
       <WindowHeader />
       <WindowPage>
         <PageRouter />

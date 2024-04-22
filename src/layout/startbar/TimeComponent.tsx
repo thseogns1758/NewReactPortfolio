@@ -1,8 +1,8 @@
 /** @format */
 
 import React from "react";
-import styles from "./TimeComponent.module.css";
 import { useClock } from "../../hooks/useClock";
+import styles from "./TimeComponent.module.css";
 const TimeComponent = () => {
   const [time, todayDate, aP] = useClock();
 
