@@ -1,12 +1,13 @@
 import { useState } from "react";
 
-export const useClock = (): [string, string, number] => {
+export const useClock = (): [string, string, string] => {
   const [time, setTime] = useState("");
   const [todayDate, setTodayDate] = useState("");
-  const [hourOfTime, setHourOfTime] = useState(0);
+  const [aP, setAP] = useState("");
   let stringMonth = "";
   let stringDate = "";
   let stringMinutes = "";
+
   setInterval(() => {
     clock();
   }, 1000);
@@ -38,14 +39,19 @@ export const useClock = (): [string, string, number] => {
       stringMinutes = minutes.toString();
     }
     if (hours > 12) {
+      if (hours > 11) {
+        setAP("오후");
+      } else {
+        setAP("오전");
+      }
+
       hours = hours - 12;
     }
     if (hours === 0) {
       hours = 12;
     }
-    setHourOfTime(hours);
     setTime(hours + ":" + stringMinutes);
     setTodayDate(year + "-" + stringMonth + "-" + stringDate);
   }
-  return [time, todayDate, hourOfTime];
+  return [time, todayDate, aP];
 };

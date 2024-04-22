@@ -1,14 +1,15 @@
 /** @format */
 
 import React from "react";
-import styles from "./Window.module.css";
+
 import WindowHeader from "./WindowHeader";
 import WindowPage from "./WindowPage";
 import PageRouter from "../../routes/PageRouter";
+import "../../css/styles.css";
 
 const Window = () => {
   return (
-    <div className={styles.window}>
+    <div className="window">
       <WindowHeader />
       <WindowPage>
         <PageRouter />

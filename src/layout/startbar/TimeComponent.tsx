@@ -4,12 +4,12 @@ import React from "react";
 import styles from "./TimeComponent.module.css";
 import { useClock } from "../../hooks/useClock";
 const TimeComponent = () => {
-  const [time, todayDate, hourOfTime] = useClock();
+  const [time, todayDate, aP] = useClock();
 
   return (
     <div className={styles.todayCover}>
       <div className={styles.timeCover}>
-        {hourOfTime > 11 ? <span>오후</span> : <span>오전</span>}
+        {aP}
         {time}
       </div>
       <div className={styles.dateCover}>{todayDate}</div>
