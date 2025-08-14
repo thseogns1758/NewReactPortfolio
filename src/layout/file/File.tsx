@@ -25,7 +25,7 @@ const File = () => {
           onClick={clickHandler}
         >
           <div>
-            <Link to={`${name.path}`} target={name.target && name.target}>
+            <Link to={`${name.path}`}>
               <img
                 src={`${process.env.PUBLIC_URL}/img/folder_image/${name.img}.png`}
                 alt="이미지"
