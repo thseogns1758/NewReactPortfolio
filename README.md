@@ -13,7 +13,8 @@
 router를 사용해 폴더기능을 구현하였으며 Link로 되어있는 폴더를 클릭시 해당 path로 이동하게 만들었습니다 .  
 해당 path로 이동시 redux로 상태변화를 주어 웹을 형상화한 window컴포넌트가 출력됩니다.  
 ## 기능  
-1. 내정보 : 제작자의 정보와 kakaoMap-api를 활용해 현재 거주하고있는 집의 위치를 나타내게 했습니다.  
+1. 내정보 : 제작자의 정보와 kakaoMap-api를 활용해 현재 거주하고있는 집의 위치를 나타내게 했습니다.  <img width="1905" height="915" alt="image" src="https://github.com/user-attachments/assets/4ae3d2fc-fbd4-4d00-a4b0-1a206fa6c4ce" />
+
 
 2. 내기술 : 현재까지 사용했었던 기술들과 간단한 기능구현을 작성한 페이지 입니다.  ![image](https://github.com/thseogns/NewReactPortfolio/assets/99688960/ddc38138-5dbe-43e8-afe2-725d8bc89a2f)
 
