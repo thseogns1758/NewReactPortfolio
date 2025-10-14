@@ -30,8 +30,6 @@ const Explanation = ({ display }: { display: boolean }) => {
         <br /> 날씨 : 현재 날씨를 지역별로 알 수 있게 만든 페이지입니다. <br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;application의
         이미지를 위해 다른 웹페이지 형식과는 다르게 제작하였습니다. <br />
-        <br /> next13-page : next13과 tailwindCss를 활용하여 제작한
-        웹사이트입니다. <br />
       </p>
     </div>
   );

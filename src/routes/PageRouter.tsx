@@ -14,7 +14,7 @@ const PageRouter = () => {
       <Route path="/skill" element={<Skill />}></Route>
       <Route path="/my_project" element={<MyProject />}></Route>
       <Route path="/memo" element={<Memo />}></Route>
-      <Route path="/trashnext" element={<Skill />}></Route>
+      {/* <Route path="/trashnext" element={<Skill />}></Route> */}
       <Route path="/counter" element={<NumberCounter />}></Route>
     </Routes>
   );
