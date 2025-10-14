@@ -34,16 +34,18 @@ function Slick({
   const settings = useMemo<Settings>(
     () => ({
       infinite: loop,
-      speed: speed,
+      speed,
       slidesToShow: 1,
-
       arrows: true,
+      autoplay: !!autoplay,
+      autoplaySpeed: typeof autoplay === "number" ? autoplay : 3000,
     }),
     [autoplay, loop, speed]
   );
+
   return (
     <SlideWrapper className={className}>
-      <Slider {...settings}>{children}</Slider>
+      <Slider {...(settings as any)}>{children}</Slider>
     </SlideWrapper>
   );
 }

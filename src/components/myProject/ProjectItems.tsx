@@ -22,11 +22,11 @@ const SliderItem = styled.div`
 `;
 
 const items: itemsProps[] = [
-  {
-    item: `${process.env.PUBLIC_URL}/img/project_image/PhotoAlbum.png`,
-    href: "https://photoalbumproject.netlify.app/",
-    name: "PhotoAlbum",
-  },
+  // {
+  //   item: `${process.env.PUBLIC_URL}/img/project_image/PhotoAlbum.png`,
+  //   href: "https://photoalbumproject.netlify.app/",
+  //   name: "PhotoAlbum",
+  // },
   {
     item: `${process.env.PUBLIC_URL}/img/project_image/OpenTable.png`,
     href: "https://opentableclone.netlify.app/",
@@ -37,11 +37,11 @@ const items: itemsProps[] = [
     href: "https://sondaehoonflix.netlify.app/",
     name: "Netfle",
   },
-  {
-    item: `${process.env.PUBLIC_URL}/img/project_image/Hnm.png`,
-    href: "https://sonhnm.netlify.app/",
-    name: "H&M",
-  },
+  // {
+  //   item: `${process.env.PUBLIC_URL}/img/project_image/Hnm.png`,
+  //   href: "https://sonhnm.netlify.app/",
+  //   name: "H&M",
+  // },
   {
     item: `${process.env.PUBLIC_URL}/img/project_image/TsTodoList.png`,
     href: "https://creative-nasturtium-945124.netlify.app/",
@@ -52,11 +52,11 @@ const items: itemsProps[] = [
     href: "https://thseogns.github.io/tire/",
     name: "tire",
   },
-  {
-    item: `${process.env.PUBLIC_URL}/img/project_image/air.png`,
-    href: "https://silver-kelpie-5dd0f4.netlify.app/",
-    name: "air",
-  },
+  // {
+  //   item: `${process.env.PUBLIC_URL}/img/project_image/air.png`,
+  //   href: "https://silver-kelpie-5dd0f4.netlify.app/",
+  //   name: "air",
+  // },
   {
     item: `${process.env.PUBLIC_URL}/img/project_image/frz_title.png`,
     href: "https://thseogns.github.io/frizm/",
